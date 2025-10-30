@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>AIBY</title>
+  </head>
+  <body>
+    <main id="app">
+      <section class="paywall">
+        <div class="container">
+          <h1 class="paywall-title" data-i18n="Get Unlimited <br>Access">
+            Get Unlimited <br>Access
+          </h1>
+
+          <div class="paywall-features" role="list">
+            <div class="paywall-feature" role="listitem">
+              <h2 class="paywall-feature-title" data-i18n="Unlimited Art <br>Creation">
+                Unlimited Art <br>Creation
+              </h2>
+              <img 
+                class="paywall-feature-image"
+                alt="Example of unlimited art creation feature" 
+                src="/src/assets/images/feature-example-1.jpg" 
+                srcset="/src/assets/images/feature-example-1-retina.jpg 2x"
+                width="110"
+                height="150"
+              />
+            </div>
+
+            <div class="paywall-feature" role="listitem">
+              <h2 class="paywall-feature-title" data-i18n="Exclusive <br>Styles">
+                Exclusive <br>Styles
+              </h2>
+              <img 
+                class="paywall-feature-image"
+                alt="Example of exclusive styles feature" 
+                src="/src/assets/images/feature-example-2.jpg" 
+                srcset="/src/assets/images/feature-example-2-retina.jpg 2x"
+                width="110"
+                height="150"
+              />
+            </div>
+
+            <div class="paywall-feature" role="listitem">
+              <h2 class="paywall-feature-title" data-i18n="Magic Avatars <br>With 20% Off">
+                Magic Avatars <br>With 20% Off
+              </h2>
+              <img 
+                class="paywall-feature-image"
+                alt="Example of magic avatars feature with discount" 
+                src="/src/assets/images/feature-example-3.jpg" 
+                srcset="/src/assets/images/feature-example-3-retina.jpg 2x"
+                width="110"
+                height="150"
+              />
+            </div>
+          </div>
+
+          <div class="prices" role="radiogroup">
+            <div class="offer-wrapper">
+              <div data-i18n="BEST OFFER" class="best-offer-btn">BEST OFFER</div>
+            </div>
+            <div class="price promo" role="radio" tabindex="0">
+              <div class="price-info">
+                <span class="price-label" data-i18n="YEARLY ACCESS">YEARLY ACCESS</span>
+                <p class="price-per-year" data-i18n="Just {{price}} per year">
+                  Just 00.00 per year
+                </p>
+              </div>
+              <p class="price-per-week-yearly" data-i18n="{{price}} <br>per week">
+                00.00 <br>per week
+              </p>
+            </div>
+
+            <div class="price" role="radio" tabindex="0">
+              <div class="price-info">
+                <span class="price-label" data-i18n="WEEKLY ACCESS">WEEKLY ACCESS</span>
+              </div>
+              <p class="price-per-week" data-i18n="{{price}} <br>per week">
+                00.00 <br>per week
+              </p>
+            </div>
+          </div>
+
+          <button 
+            class="continue-button" 
+            type="button"
+            data-i18n="Continue"
+          >
+            Continue
+          </button>
+
+          <nav class="links" role="navigation" aria-label="Legal and support links">
+            <a 
+              href="#" 
+              target="_blank"
+              rel="noopener noreferrer"
+              data-i18n="Terms of Use"
+            >
+              Terms of Use
+            </a>
+            <a 
+              href="#" 
+              target="_blank"
+              rel="noopener noreferrer"
+              data-i18n="Privacy Policy"
+            >
+              Privacy Policy
+            </a>
+            <a 
+              href="#" 
+              target="_blank"
+              rel="noopener noreferrer"
+              data-i18n="Restore"
+            >
+              Restore
+            </a>
+          </nav>
+        </div>
+        <a href="#" class="cross">&#10005;</a>
+      </section>
+    </main>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
